@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         REGISTRY = 'https://registry.hub.docker.com'
-        IMAGE_NAME = 'raj80dockerid/test'
+        IMAGE_NAME = 'mohamednasser018/test'
     }
     stages {
         stage('Clone repository') {
